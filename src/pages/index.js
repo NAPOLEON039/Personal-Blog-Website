@@ -1,11 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = ({data}) => {
+  data.allMarkdownRemark.edges.map(post => console.log(post.node.frontmatter.title));
+  return (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
@@ -17,6 +20,20 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/posts-index/">Go to posts</Link>
   </Layout>
-)
+)}
+
+export const postTitles = graphql`
+  query PostTitleQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
