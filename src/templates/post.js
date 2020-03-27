@@ -10,7 +10,7 @@ export default function Template ({data}) {
 
     return (
         <Layout>
-            <SEO title="Vue Anti patterns" />
+            <SEO title={post.frontmatter.title} />
             <div style={{padding: `20px`}}>
                 <h1>{post.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{__html: post.html}} />
