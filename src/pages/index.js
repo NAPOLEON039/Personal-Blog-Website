@@ -30,7 +30,7 @@ const IndexPage = ({data}) => {
       <p>I write articles on Vue, React and any topic that I work with.</p>
       <p>Some of my articles are tutorials on projects that I've worked on, while some are guides on using a library like Jest or Cypress.</p>
       <p>I hope you learn something new from my articles.</p>
-      <ul> {data.allMarkdownRemark.edges.map(post => <li><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></li>)} </ul>
+      <ul> {data.allMarkdownRemark.edges.map(post => <li key={post.node.id}><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></li>)} </ul>
     </Layout>
 )}
 
