@@ -3,8 +3,9 @@ import { Link } from "gatsby"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import Post from "../components/postCard"
 import SEO from "../components/seo"
+import "./index.css"
 
 // const IndexPage = ({data}) => {
 //   data.allMarkdownRemark.edges.map(post => console.log(post.node.frontmatter.title));
@@ -22,7 +23,7 @@ import SEO from "../components/seo"
 //   </Layout>
 // )}
 
-const IndexPage = ({data}) => {
+const index = ({data}) => {
   return (
     <Layout>
       <SEO title="Home" />
@@ -30,7 +31,11 @@ const IndexPage = ({data}) => {
       <p>I write articles on Vue, React and any topic that I work with.</p>
       <p>Some of my articles are tutorials on projects that I've worked on, while some are guides on using a library like Jest or Cypress.</p>
       <p>I hope you learn something new from my articles.</p>
-      <ul> {data.allMarkdownRemark.edges.map(post => <li key={post.node.id}><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></li>)} </ul>
+      <ul style={{listStyle: "none"}}> 
+        {
+          data.allMarkdownRemark.edges.map(post => <li key={post.node.id}><Link to={post.node.frontmatter.path}><Post postTitle = {post.node.frontmatter.title} /></Link></li>)
+        } 
+      </ul>
     </Layout>
 )}
 
@@ -49,4 +54,4 @@ export const postTitles = graphql`
   }
 `
 
-export default IndexPage
+export default index
