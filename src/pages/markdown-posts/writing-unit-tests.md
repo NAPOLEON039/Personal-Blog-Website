@@ -1,6 +1,7 @@
 ---
 path: '/writing-unit-tests-first-time'
 title: 'A Guide to Writing Awesome Unit Tests for the first time'
+date: '2018-08-14'
 ---
 
 ![Cover image](https://thepracticaldev.s3.amazonaws.com/i/5dnrz0t629hheejdqj65.PNG)

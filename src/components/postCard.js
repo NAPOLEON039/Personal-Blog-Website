@@ -3,8 +3,10 @@ import React from "react"
 import "./postCard.css"
 
 const PostCard = ({postTitle}) => (
-    <div id="card">
-        <h4>{postTitle}</h4>
+    <div className="card">
+        <div className="card-body">
+        <h4 className="card-title">{postTitle}</h4>
+        </div>
     </div>
 )
 

@@ -41,7 +41,7 @@ const index = ({data}) => {
 
 export const postTitles = graphql`
   query PostTitleQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           frontmatter {

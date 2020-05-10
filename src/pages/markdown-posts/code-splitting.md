@@ -1,6 +1,7 @@
 ---
 path: '/what-is-code-splitting'
 title: 'How code-splitting can help your site be more efficient'
+date: '2018-09-03'
 ---
 
 ![Cover image](https://thepracticaldev.s3.amazonaws.com/i/rk2b95me6wfw9126ccr0.JPG)

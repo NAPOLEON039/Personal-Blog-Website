@@ -1,6 +1,7 @@
 ---
 path: '/vue-anti-patterns'
 title: 'Are you committing these mistakes as a Vue developer'
+date: '2018-09-30'
 ---
 
 ## Introduction

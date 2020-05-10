@@ -1,6 +1,7 @@
 ---
 path: '/lesser-known-amazing-things-vuerouter-can-do'
 title: 'The lesser known amazing things VueRouter can do'
+date: '2018-10-08'
 ---
 
 ![Cover image](https://thepracticaldev.s3.amazonaws.com/i/7de1jb1xllvfriiks5si.JPG)
