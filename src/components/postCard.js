@@ -1,13 +1,18 @@
 import React from "react"
+import { Link } from 'gatsby'
+import { Container, Card } from 'react-bootstrap'
 
-import "./postCard.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-const PostCard = ({postTitle}) => (
-    <div className="card">
-        <div className="card-body">
-        <h4 className="card-title">{postTitle}</h4>
-        </div>
-    </div>
+const PostCard = ({postTitle, postLocation}) => (
+    <Container fluid="md">
+        <Card style={{backgroundColor: '#cbdada'}}>
+            <Card.Body>
+                <Card.Title> {postTitle} </Card.Title>
+                <Link to={postLocation}><Card.Link href="#">View post</Card.Link></Link>
+            </Card.Body>
+        </Card>
+    </Container>
 )
 
 export default PostCard

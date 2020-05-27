@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Post from "../components/postCard"
 import SEO from "../components/seo"
+import 'bootstrap/dist/css/bootstrap.min.css'
 import "./index.css"
 
 // const IndexPage = ({data}) => {
@@ -33,7 +33,7 @@ const index = ({data}) => {
       <p>I hope you learn something new from my articles.</p>
       <ul style={{listStyle: "none"}}> 
         {
-          data.allMarkdownRemark.edges.map(post => <li key={post.node.id}><Link to={post.node.frontmatter.path}><Post postTitle = {post.node.frontmatter.title} /></Link></li>)
+          data.allMarkdownRemark.edges.map(post => <li key={post.node.id}><Post postTitle = {post.node.frontmatter.title} postLocation = {post.node.frontmatter.path} /></li>)
         } 
       </ul>
     </Layout>
