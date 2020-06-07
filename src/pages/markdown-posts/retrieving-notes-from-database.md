@@ -36,6 +36,6 @@ And we need to replace the `notes` array in the template with the computed prope
 ## Wrapping up
 The main functionality of our app is ready. We are able to create new notes which are stored in a database. We retrieve our notes from the database when our app is mounted. Our notes are also sorted by their title. 
 
-All that is left is to add a way to delete our notes, both from the array and the database. We will add this feature in our next and last part. I will also put out some CSS for styling the app. There is not much to explain with the CSS so there won't be a separate part for it.
+All that is left is to add a way to delete our notes, both from the array and the database. We will add this feature in our next and last part.
 
 This is it for this part.

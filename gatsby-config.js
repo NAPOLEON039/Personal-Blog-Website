@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Nihar's Blog`,
+    title: `Blog`,
     description: `A website displaying all the blog posts written by Nihar Raote`,
-    author: `@gatsbyjs`,
+    author: `Nihar Raote`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
