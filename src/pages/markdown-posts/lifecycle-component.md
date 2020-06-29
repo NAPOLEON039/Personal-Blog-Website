@@ -1,6 +1,6 @@
 ---
-path: '/creation-lifecycle-of-a-react-component',
-title: 'Creation lifecycle of a class-based React component',
+path: '/creation-lifecycle-of-a-react-component'
+title: 'Creation lifecycle of a class-based React component'
 date: '2020-06-26'
 ---
 
