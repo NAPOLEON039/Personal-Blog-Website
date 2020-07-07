@@ -4,6 +4,8 @@ title: 'Update lifecycle of a class-based React component'
 date: '2020-07-06'
 ---
 
+![Cover image](https://dev-to-uploads.s3.amazonaws.com/i/rdax42giv1w6m9mxtw1d.png)
+
 ## Update lifecycle
 The previous article was about the lifecycle hooks of a class-based component when it is being created. In this article, we will see the hooks that come into play when a class-based component is updated.
 
@@ -43,9 +45,9 @@ Asynchronous tasks like executing HTTP requests can be done in this hook. Althou
 
 If you need to update the state, make sure to use *setState()* inside a Promise to avoid causing an unnecessary re-render. While this re-render will not cause any visible changes, it will still affect the component's performance.
 
-This hook takes the previous state and props, before the component was updated, as arguments. The previous props can be compared to the current props to check whether it is necessary to execute a network request if the prop has changed. If your component implements the rarely-used *getSnapshotBeforeUpdate()* lifecycle hook, then *componentDidUpdate()* will receive a third argument - **snapshot**. If *getSnapshotBeforeUpdate()* has not been implmented, the third argument will be undefined.
+This hook takes the previous state and props, before the component was updated, as arguments. The previous props can be compared to the current props to check whether it is necessary to execute a network request if the prop has changed. If your component implements the rarely-used *getSnapshotBeforeUpdate()* lifecycle hook, then *componentDidUpdate()* will receive a third argument - **snapshot**. If *getSnapshotBeforeUpdate()* has not been implemented, the third argument will be undefined.
 
 > *Note: If `shouldComponentUpdate()` returns false, `componentDidUpdate()` will not be invoked*
 
 ## Wrapping up
-These are the lifecycle hooks which are invoked when a component goes through an update. In the next article we will see the *useEffect* hook which can be used in a functional component in place of these lifecycle hooks.
+These are the lifecycle hooks which are invoked when a component goes through an update. In the next article, we will see the *useEffect* hook which can be used in a functional component in place of these lifecycle hooks.

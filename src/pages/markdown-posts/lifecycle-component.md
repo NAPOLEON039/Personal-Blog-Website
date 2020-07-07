@@ -4,6 +4,8 @@ title: 'Creation lifecycle of a class-based React component'
 date: '2020-06-26'
 ---
 
+![Cover image](https://dev-to-uploads.s3.amazonaws.com/i/qfnkg78qmdd915dcywt4.png)
+
 ## Lifecycle hooks
 After React Hooks were introduced in React 16.8, lifecycle hooks - which were only available in class-based components, are now also available in functional components with the help of the `useEffect` hook.
 
