@@ -26,11 +26,13 @@ import "./index.css"
 const index = ({data}) => {
   return (
     <Layout>
-      <SEO title="Home" />
-      <h1>Welcome to my blog</h1>
-      <p>I write articles on Vue, React and any topic that I work with.</p>
-      <p>Some of my articles are tutorials on projects that I've worked on, while some are guides on using a library like Jest or Cypress.</p>
-      <p>I hope you learn something new from my articles.</p>
+      <SEO title="Nihar's Dev Corner" />
+      <span className="main-text">
+        <h1>Welcome to my blog</h1>
+        <p>I write articles on Vue, React and any topic that I work with.</p>
+        <p>Some of my articles are tutorials on projects that I've worked on, while some are guides on using a library like Jest or Cypress.</p>
+        <p>I hope you learn something new from my articles.</p>
+      </span>
       <ul style={{listStyle: "none"}}> 
         {
           data.allMarkdownRemark.edges.map(post => <li key={post.node.id}><Post postTitle = {post.node.frontmatter.title} postLocation = {post.node.frontmatter.path} /></li>)

@@ -6,15 +6,13 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       marginBottom: `1.45rem`,
-      background: `rgb(72,183,244)`,
-      backgroundImage: `linear-gradient(90deg, #01baef 48%, #63A4FF 100%)`,
-      
-
+      background: `rgb(1,186,239)`,
+      backgroundImage: `linear-gradient(90deg, rgba(1,186,239,1) 49%, rgba(35,199,145,1) 100%)`,
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+        margin: `0 2rem`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
@@ -24,7 +22,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#103ba3`,
             textDecoration: `none`,
           }}
         >
