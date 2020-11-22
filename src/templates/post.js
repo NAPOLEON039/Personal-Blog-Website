@@ -10,7 +10,7 @@ export default function Template ({data}) {
 
     return (
         <Layout>
-            <SEO title={post.frontmatter.title} />
+            <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
             <div id="post-content" style={{padding: `20px`}}>
                 <i className="fas fa-home"></i><h1>{post.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{__html: post.html}} />
@@ -26,6 +26,7 @@ export const postQuery = graphql`
             frontmatter {
                 path
                 title
+                description
             }
         }
     }
