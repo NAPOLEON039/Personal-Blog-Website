@@ -1,8 +1,8 @@
 ---
 path: '/how-does-a-react-class-component-perform-cleanup'
 title: 'How does a React class-based component perform cleanup?'
-date: '2020-11-20'
 description: 'Do you clean up event subscriptions and cancel network requests when a component is unmounted?'
+date: '2020-11-20'
 ---
 
 ## Why is it necessary?
