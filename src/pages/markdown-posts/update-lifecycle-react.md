@@ -2,6 +2,7 @@
 path: '/update-lifecycle-of-a-react-component'
 title: 'Update lifecycle of a class-based React component'
 date: '2020-07-06'
+cover: 'https://dev-to-uploads.s3.amazonaws.com/i/rdax42giv1w6m9mxtw1d.png'
 ---
 
 ![Cover image](https://dev-to-uploads.s3.amazonaws.com/i/rdax42giv1w6m9mxtw1d.png)

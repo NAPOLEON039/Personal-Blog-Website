@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nihar's Dev Corner`,
-    description: `A website for all the blog posts written by Nihar Raote`,
+    description: ``,
     author: `Nihar Raote`,
   },
   plugins: [
