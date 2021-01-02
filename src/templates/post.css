@@ -5,3 +5,13 @@ img[alt="Cover image"]{
 * {
     color: #4d0316;
 }
+
+blockquote {
+    padding: 10px 0;
+    background-color: rgb(233, 233, 233);
+    border-left: 10px solid rgb(175, 174, 174);
+}
+
+blockquote > p {
+    padding-left: 8px;
+}
