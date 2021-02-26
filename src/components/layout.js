@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          &copy; {new Date().getFullYear()}, Built with by
+          &copy; {new Date().getFullYear()}, Built by
           {` `}
           <a href="https://twitter.com/napoleon039">Nihar Raote</a>
         </footer>
