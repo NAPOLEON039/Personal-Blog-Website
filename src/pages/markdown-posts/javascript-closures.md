@@ -13,7 +13,7 @@ cover: ''
 Being able to implement private variables and methods is very helpful for restricting access to code. By making a variable private it limits the amount of code that can mutate it. There are several ways to implement private variables and methods in JavaScript. One of such ways is by using closures.
 
 ## What is a closure?
-Introduced in ES6, a closure is the combination of a function bundled with its surrounding state. This means that we can access the scope in which the function is defined, from inside that function. Let's look at a simple example:
+A closure is the combination of a function bundled with its surrounding state. This means that we can access the scope in which the function is defined, from inside that function. Let's look at a simple example:
 
 ![An example of a closure](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kn1vxndikkpu2693yjrl.png)
 
