@@ -3,10 +3,10 @@ path: '/javascript-closures'
 title: 'How do closures make private variables possible in JavaScript?'
 date: '2021-03-01'
 description: ''
-cover: ''
+cover: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hr1xb8gx9yrosbofm7xt.png'
 ---
 
-![]()
+![Cover image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hr1xb8gx9yrosbofm7xt.png)
 
 <br />
 
