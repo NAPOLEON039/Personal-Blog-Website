@@ -2,7 +2,7 @@
 path: '/webpack-react-app'
 title: 'Make a simple React app with Webpack - An easy practical guide'
 date: '2021-04-05'
-description: ''
+description: 'A guide to create a basic React app with the Webpack bundler'
 cover: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tboqsecxwxbjw3ya75kr.png'
 ---
 
