@@ -2,7 +2,7 @@
 path: '/persistent-layout-nextjs'
 title: 'Quick tips: Persistent wrapper content in Next.js'
 date: '2021-04-22'
-description: ''
+description: 'Persistent content or header across all pages in Next.js app'
 cover: ''
 ---
 
