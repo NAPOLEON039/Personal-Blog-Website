@@ -3,10 +3,10 @@ path: '/custom-express-server-nuxtjs'
 title: 'Creating a custom Express server in Nuxt.js: 2 things to remember'
 date: '2021-05-25'
 description: 'A short post listing 2 things to remember for creating an Express server in Nuxtjs'
-cover: ''
+cover: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2zyz5dorzs65fkhbsxx6.png'
 ---
 
-<!-- ![Cover image]() -->
+![Cover image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2zyz5dorzs65fkhbsxx6.png)
 
 <br />
 
